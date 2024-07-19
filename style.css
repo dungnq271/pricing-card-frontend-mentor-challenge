@@ -34,7 +34,7 @@ body {
 
 .small-bottom-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     color: hsl(204, 43%, 93%);
 }
@@ -47,10 +47,12 @@ body {
 /* Boxes */
 .box-item {
     padding: 40px;
+}
+
+.small-bottom-container .box-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* line-height: 120%; */
 }
 
 .top-box {
@@ -72,10 +74,15 @@ body {
 }
 
 /* Text Content */
+
 /* Tox Box */
 .top-box p {
     line-height: 170%;
     opacity: 0.9;
+}
+
+span {
+    display: inline;
 }
 
 .top-box h2 {
@@ -125,4 +132,14 @@ button:hover {
 
 .right-box p {
     opacity: 0.8;
+}
+
+@media (min-width: 576px) {
+    span {
+	display: block;
+    }
+
+    .small-bottom-container {
+	flex-direction: row;
+    }
 }
