@@ -7,7 +7,6 @@
 html {
     font-family: "Karla", sans-serif;
     font-size: 16px;
-    font-weight: 400;
 }
 
 html,
@@ -35,24 +34,19 @@ body {
 .small-bottom-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     color: hsl(204, 43%, 93%);
 }
 
 .price-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 /* Boxes */
 .box-item {
     padding: 40px;
-}
-
-.small-bottom-container .box-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .top-box {
@@ -62,7 +56,7 @@ body {
 }
 
 .left-box, .right-box {
-    flex: 50%;
+    flex-basis: 50%;
 }
 
 .left-box {
@@ -104,16 +98,14 @@ span {
     font-size: 2rem;
     font-weight: 700;
     margin-right: 10px;
-    margin-bottom: 10px;
 }
 
 #unit {
-    position: relative;
-    top: 8px;
     opacity: 0.6;
 }
 
 button {
+    width: 100%;
     font-size: 1rem;
     background-color: hsl(71, 73%, 50%);
     color: white;
