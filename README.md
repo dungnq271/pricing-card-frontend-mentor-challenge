@@ -84,7 +84,7 @@ body {
 ## Author
 
 - Frontend Mentor - [@@dungnq271](https://www.frontendmentor.io/profile/dungnq271)
-- Twitter - [@LeonardNg27](https://www.frontendmentor.io/profile/dungnq271)
+- Twitter - [@LeonardNg27](https://x.com/LeonardNg27)
 
 ## Acknowledgments
 
