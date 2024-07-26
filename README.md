@@ -1,6 +1,6 @@
 # Frontend Mentor - Single price grid component solution
 
-This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -49,8 +49,17 @@ This is my first project in which I learned to structure the HTML and later crea
 Here are some code snippets I am proud of:
 
 ```html
-<p><span>Gain access to our full library of tutorials along with expert code reviews.</span> <span>Perfect for any developers who are serious about honing their skills.</span></p>	
+<p>
+  <span
+    >Gain access to our full library of tutorials along with expert code
+    reviews.</span
+  >
+  <span
+    >Perfect for any developers who are serious about honing their skills.</span
+  >
+</p>
 ```
+
 > This is to change the layout of the normal texts in the top section from mobile view to desktop view
 
 ```CSS
@@ -58,6 +67,7 @@ span {
     display: inline;
 }
 ```
+
 > accompanied by this css style in mobile view
 
 ```CSS
@@ -65,15 +75,18 @@ span {
     display: block;
 }
 ```
+
 > and this style in desktop view.
+
 ```css
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 ```
+
 > Center the price grid in the webpage both horizontally and vertically. My first CSS Flexbox code.
 
 ### Useful resources
