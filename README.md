@@ -50,13 +50,13 @@ Here are some code snippets I am proud of:
 
 ```html
 <p>
-  <span
-    >Gain access to our full library of tutorials along with expert code
-    reviews.</span
-  >
-  <span
-    >Perfect for any developers who are serious about honing their skills.</span
-  >
+  <span>
+	Gain access to our full library of tutorials along with expert code
+    reviews.
+  </span>
+  <span>
+    Perfect for any developers who are serious about honing their skills.
+  </span>
 </p>
 ```
 
