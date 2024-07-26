@@ -62,10 +62,10 @@ span {
 
 ```CSS
 span {
-	display: block;
+    display: block;
 }
 ```
-> and this style in desktop view
+> and this style in desktop view.
 ```css
 body {
     display: flex;
